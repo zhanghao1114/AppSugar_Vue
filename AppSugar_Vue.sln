@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSugar_Vue.Common", "AppS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSugar_Vue.Bll", "AppSugar_Vue.Bll\AppSugar_Vue.Bll.csproj", "{35ED97F2-B74A-4468-9B03-EF2CE5EB8877}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppSugar_Vue.Web", "AppSugar_Vue.Web", "{E0CDDBBA-9DCA-49A9-B90A-B3BEABDF1653}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
