@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSugar_Vue.Common", "AppS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppSugar_Vue.Bll", "AppSugar_Vue.Bll\AppSugar_Vue.Bll.csproj", "{35ED97F2-B74A-4468-9B03-EF2CE5EB8877}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppSugar_Vue.Web", "AppSugar_Vue.Web\AppSugar_Vue.Web.csproj", "{EE8CFFAA-D8B9-4FC9-B0CA-E3FDABB3C3CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{35ED97F2-B74A-4468-9B03-EF2CE5EB8877}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35ED97F2-B74A-4468-9B03-EF2CE5EB8877}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35ED97F2-B74A-4468-9B03-EF2CE5EB8877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8CFFAA-D8B9-4FC9-B0CA-E3FDABB3C3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8CFFAA-D8B9-4FC9-B0CA-E3FDABB3C3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8CFFAA-D8B9-4FC9-B0CA-E3FDABB3C3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8CFFAA-D8B9-4FC9-B0CA-E3FDABB3C3CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
