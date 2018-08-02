@@ -1,5 +1,5 @@
 ﻿{
   "ConnectionStrings": {
-    "DefaultConnection": "Server=.;Database=RiverChief;User Id=sa;Password=1234;"
+    "DefaultConnection": "Server=127.0.0.1;Database=RiverChief;User Id=sa;Password=1234;"
   }
 }
