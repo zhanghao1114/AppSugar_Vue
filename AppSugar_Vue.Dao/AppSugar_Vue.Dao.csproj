@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AppSugar_Vue.Common\AppSugar_Vue.Common.csproj" />
+    <ProjectReference Include="..\AppSugar_Vue.DTO\AppSugar_Vue.DTO.csproj" />
+    <ProjectReference Include="..\AppSugar_Vue.Model\AppSugar_Vue.Model.csproj" />
   </ItemGroup>
 
 </Project>
