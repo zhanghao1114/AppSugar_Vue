@@ -16,15 +16,29 @@ using Swashbuckle.AspNetCore.Swagger;
 
 namespace AppSugar_Vue
 {
+    /// <summary>
+    /// 路由
+    /// </summary>
     public class Startup
     {
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="configuration"></param>
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
         }
 
+        /// <summary>
+        /// 配置
+        /// </summary>
         public IConfiguration Configuration { get; }
 
+        /// <summary>
+        /// 路由配置
+        /// </summary>
+        /// <param name="services"></param>
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -47,8 +61,25 @@ namespace AppSugar_Vue
                 options.SerializerSettings.ContractResolver = new DefaultContractResolver();
                 options.SerializerSettings.DateFormatString = "yyyy-MM-dd HH:mm:ss";
             });
+
+            //配置跨域处理
+            services.AddCors(options =>
+            {
+                options.AddPolicy("any", builder =>
+                {
+                    builder.AllowAnyOrigin() //允许任何来源的主机访问
+                    .AllowAnyMethod()
+                    .AllowAnyHeader()
+                    .AllowCredentials();//指定处理cookie
+                });
+            });
         }
 
+        /// <summary>
+        /// 配置
+        /// </summary>
+        /// <param name="app"></param>
+        /// <param name="env"></param>
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
